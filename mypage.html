@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/mypage.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1>타이틀 리스트</h1>
+        </a>
+        <div class="btn-group">
+            <a href="mypage.html" class="btn-store">
+                <span class="hide">스토어</span>
+            </a>
+            <a href="mypage.html" class="btn-mypage">
+                <span class="hide">마이페이지</span>
+            </a>
+            <a href="gnb.html" class="btn-gnb">
+                <span class="hide">MENU</span>
+            </a>
+        </div>
+    </header>
+    <div id="contrainer">
+        <div class="login-wrap">
+            <div class="login-cnt">
+                <strong class="title">로그인</strong>
+                <div class="login-ipt">
+                    <form id="loginForm" action="">
+                        <ul>
+                            <li class="ipt">
+                                <label for="loginId">이메일 주소</label>
+                                <input type="text" id="loginId" name="loginId">
+                            </li>
+                            <li class="ipt">
+                                <label for="password">비밀번호</label>
+                                <input type="password" id="password" name="password">
+                            </li>
+                            <li class="chk">
+                                <input type="checkbox" id="autoLogin" name="autoLogin" class="chk-box">
+                                <label for="autoLogin">로그인 유지</label>
+                            </li>
+                            <li class="btn">
+                                <button type="button" class="btn-sty-black large" id="btnLogin">
+                                    로그인
+                                </button>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="user-find">
+                        <p class="font14">
+                            이메일 및 비밀번호 찾기는 팀 타이틀리스트 사이트에서 이용하실 수 있습니다.
+                        </p>
+                        <a href="#" class="btn-ico-outlink">
+                            <span class="under">이메일/비밀번호 찾기</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

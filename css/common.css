@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    color: #111;
+    outline: 0;
+}
+img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+}
+ul {
+    list-style: none;
+}
+.hide {
+    position: absolute;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

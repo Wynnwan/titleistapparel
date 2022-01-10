@@ -1,0 +1,171 @@
+a > * { color: #111;}
+
+header {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    background-color: transparent;
+    
+    height: 14.93vw;
+    padding: 0 6.4vw;
+    transition: top .2s;
+    z-index: 100;
+}
+header h1 {
+    float: left;
+    width: 20vw;
+    height: 7.46vw;
+    margin: 3.73vw 0 0;
+    background-image: url('../img/img_layer_logo.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 20vw 7.46vw;
+    text-indent: -9999px;
+}
+.btn-group {
+    float: right;
+    margin: 4.8vw 0 0;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+header .btn-group > * {
+    display: inline-block;
+    vertical-align: top;
+}
+header .btn-group .btn-store {
+    background: url('../img/ico_clothes.png') no-repeat 0 0;
+    background-size: 6.93vw 5.3vw;
+
+    width: 6.93vw;
+    height: 5.3vw;
+}
+header .btn-group .btn-mypage {
+    background: url('../img/ico_mypage.png') no-repeat 0 0;
+    background-size: 5.3vw 5.3vw;
+
+    width: 5.3vw;
+    height: 5.3vw;
+}
+header .btn-group .btn-gnb {
+    background: url('../img/ico_menu.png') no-repeat 0 0;
+    background-size: 5.3vw 5.3vw;
+    
+    width: 5.3vw;
+    height: 5.3vw;
+}
+
+
+.login-wrap {
+    padding: 0 6.4vw;
+}
+.login-cnt {
+    margin: 21.33vw 0 0;
+}
+.login-cnt .title {
+    display: block;
+    margin-bottom: 16vw;
+    font-size: 10.66vw;
+    letter-spacing: -3px;
+    font-weight: 700;
+}
+.login-cnt .login-ipt li.ipt {
+    position: relative;
+    /* transition: all .5s; */
+}
+.login-cnt .login-ipt li.ipt label {
+    position: absolute;
+    top: 2.66vw;
+    left: 0;
+    font-size: 5.33vw;
+    color: #777;
+    /* transition: all .5s; */
+}
+.login-cnt .login-ipt li.ipt input {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #111;
+    font-size: 4.8vw;
+    
+    height: 12.8vw;
+    color: #111;
+}
+.login-cnt .login-ipt li + li {
+    margin-top: 8vw;
+}
+input[type="checkbox"] {
+    position: absolute;
+    top: -9999px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+input[type="checkbox"].chk-box + label {
+    position: relative;
+    display: inline-block;
+    padding-left: 8.53vw;
+    line-height: 6.4vw;
+    cursor: pointer;
+}
+input[type="checkbox"].chk-box + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.4vw;
+    height: 6.4vw;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+input[type="checkbox"].chk-box + label:after {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.4vw;
+    height: 6.4vw;
+    background: url("../img/ico_chk_bx on.png") no-repeat 0 0;
+    background-size: 6.4vw 6.4vw;
+    border-radius: 2px;
+}
+.btn-sty-black {
+    background: #111;
+    color: #fff;
+
+    width: 100%;
+
+    display: inline-block;
+    height: 12.8vw;
+    line-height: 12.8vw;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+}
+button {
+    border: 0;
+    font: normal 4.26vw/1.5 "nanumSq", "Malgun Gothic", 'Dotum', Tahoma, AppleGothic, sans-serif;
+    outline: 0;
+}
+.login-cnt .user-find {
+    margin-top: 10.66vw;
+}
+.login-cnt .user-find p {
+    margin-bottom: 4vw;
+    font-size: 3.47vw;
+    color: #777;
+}
+.login-cnt .user-find .btn-ico-outlink {
+    padding-right: 5.33vw;
+    font-weight: 600;
+    background: url("../img/ico_btn_outlink.png") no-repeat right 50%;
+    background-size: 2.66vw 2.66vw;
+}
+.btn-ico-outlink > .under {
+    border-bottom: 1px solid #111;
+}

@@ -1,0 +1,125 @@
+header {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    background-color: transparent;
+    
+    height: 14.93vw;
+    padding: 0 6.4vw;
+    transition: top .2s;
+    z-index: 100;
+}
+header h1 {
+    float: left;
+    width: 20vw;
+    height: 7.46vw;
+    margin: 3.73vw 0 0;
+    background-image: url('../img/logo_w.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 20vw 7.46vw;
+    text-indent: -9999px;
+}
+.btn-group {
+    float: right;
+    margin: 4.8vw 0 0;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+header .btn-group > * {
+    display: inline-block;
+    vertical-align: top;
+}
+header .btn-group .btn-store {
+    background: url('../img/ico_clothes_w.png') no-repeat 0 0;
+    background-size: 6.93vw 5.3vw;
+
+    width: 6.93vw;
+    height: 5.3vw;
+}
+header .btn-group .btn-mypage {
+    background: url('../img/ico_mypage_w.png') no-repeat 0 0;
+    background-size: 5.3vw 5.3vw;
+
+    width: 5.3vw;
+    height: 5.3vw;
+}
+header .btn-group .btn-gnb {
+    background: url('../img/ico_menu_w.png') no-repeat 0 0;
+    background-size: 5.3vw 5.3vw;
+    
+    width: 5.3vw;
+    height: 5.3vw;
+}
+
+
+section .title {
+    position: relative;
+    display: block;
+    font-size: 14.93vw;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1.2px;
+    white-space: nowrap;
+    text-shadow: 0 0 6px rgb(0 0 0 / 16%);
+}
+section .sign {
+    position: relative;
+    top: -2vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.title .sign img {
+    width: 12.5vw;
+}
+.visual-menu {
+    margin-top: 2.6vw;
+}
+.visual-menu li a {
+    display: inline-block;
+    font-size: 5.33vw;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.visual-menu li a:before {
+    content: '/';
+    display: inline-block;
+    margin-right: 2.6vw;
+    vertical-align: middle;
+}
+.visual-menu li + li {
+    margin-top: 4vw;
+}
+
+.slide-wrap { 
+    display: flex;
+    height:100vh;
+}
+.slide { 
+    flex-shrink: 0; 
+    background-image: url("../img/main_visual_1.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-top: 15%;
+    
+}
+section .slide a span {
+    display:block;
+    width: 48px; height: 48px;
+    background:url('../img/ico_btn_scroll_down.png') 0 0 / 100% no-repeat;
+    font-size: 0;
+    margin-top: 10%;
+    animation: scroll 1s infinite linear alternate;
+}
+@keyframes scroll {
+    100% { transform:translateY(40%); }
+}
